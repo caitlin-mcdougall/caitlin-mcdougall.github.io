@@ -28,6 +28,6 @@ $headers .= "Reply-To: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
 $parent = dirname($_SERVER['REQUEST_URI']);
-header('Location:/index.html');
+header('Location: https://caitlin-mcdougall.github.io/');
 exit;
 ?>
